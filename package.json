@@ -1,0 +1,12 @@
+{
+  "name": "abap-ci-postman-master",
+  "version": "1.0.0",
+  "description": "Project for Postman call from Jenkins",
+  "scripts": {
+    "api-test-dev": "newman run abap_unit_coverage.postman_collection.json"
+  },
+  "author": "Velu",
+  "dependencies": {
+    "newman": "^5.0.0"
+  }
+}
